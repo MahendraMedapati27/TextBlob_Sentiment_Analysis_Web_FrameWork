@@ -92,10 +92,12 @@ sentiment-analysis-web-framework/
 ## Screenshots
 
 ### Home Page
-![Home Page](path/to/homepage-screenshot.png)
+![Home Page]![Screenshot (63)](https://github.com/MahendraMedapati27/TextBlob_Sentiment_Analysis_Web_FrameWork/assets/153280887/2abf72a0-5171-4dea-858f-19d0fd157c69)
+
 
 ### Results Page
-![Results Page](path/to/results-page-screenshot.png)
+![Results Page]![Screenshot (64)](https://github.com/MahendraMedapati27/TextBlob_Sentiment_Analysis_Web_FrameWork/assets/153280887/7c330512-1b65-4b56-aea7-8eee0df1a96c)
+
 
 ## Contributing
 
