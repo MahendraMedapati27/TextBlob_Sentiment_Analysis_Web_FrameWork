@@ -1,0 +1,128 @@
+/* Main body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee9ca7, #ffdde1, #ee9ca7, #ffdde1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0;
+}
+
+/* Background gradient animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Form group styling */
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Textarea and input styling */
+textarea, input[type="file"] {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Textarea and input focus effect */
+textarea:focus, input[type="file"]:focus {
+    border-color: #33ccff;
+    box-shadow: 0 0 8px rgba(51, 204, 255, 0.5);
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #33ccff, #ff99cc);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(to right, #0080ff, #ff66cc);
+    box-shadow: 0 8px 15px rgba(0, 128, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Result section styling */
+.result {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Result heading styling */
+.result h2 {
+    margin-bottom: 15px;
+}
+
+/* Alert styling */
+.alert {
+    font-size: 1.1em;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-info {
+    background-color: #e7f3fe;
+    border: 1px solid #b3d7ff;
+    color: #31708f;
+}
+
+.alert .badge {
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-danger {
+    background-color: #d9534f;
+}
