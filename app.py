@@ -74,7 +74,7 @@ def analyze():
             return render_template('error.html', message='No input received.')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
 
 
 
