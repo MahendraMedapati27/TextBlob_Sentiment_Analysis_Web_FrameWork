@@ -52,7 +52,7 @@ This project is a web application for sentiment analysis using TextBlob and Flas
     python app.py
     ```
 
-2. **Open your web browser and navigate to `http://127.0.0.1:5000/`.**
+2. **Open your web browser and navigate to `http://127.0.0.1:5001/`.**
 
 3. **Use the web interface to either:**
    - Enter a single text for sentiment analysis and click "Analyze".
